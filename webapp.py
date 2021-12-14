@@ -53,6 +53,7 @@ def paragraphs():
 def markdown():
     return make_text(markdownGenerator.get_markdown())
 
+@app.route('/eleventy-post', methods=['GET'])
 @app.route('/markdown-post', methods=['GET'])
 def eleventy_post():
     (coso,slug) = markdownGenerator.get_doc()
