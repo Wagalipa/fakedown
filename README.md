@@ -31,3 +31,7 @@ $ curl https://localhost:5000/eleventy-post --output the-post.md
 ## Offline usage
 
 The module `MarkovJekyll.py` can also be executed as a standalone program. It will generate 10 markdown posts on 10 different files. 
+
+## License
+
+This app is licensed under LGPL 2.1
