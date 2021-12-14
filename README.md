@@ -12,13 +12,13 @@ It is geared towards [Jekyll](https://jekyllrb.com) and [Eleventy](https://11ty.
 
 The services exposes the following `GET` endpoints
 
-`/words` -- generates some words
-`/phrase` -- like `/words`, but longer
-`/paragraph` -- some phrases combined in a single paragraph
-`/paragraphs` -- some markdown paragraphs
-`/markdown` -- a complete markdown post, _sans_ front matter
-`/markdown-post` -- as above, with a complete fake fron matter
-`/eleventy-post` -- as above.
+- `/words` -- generates some words
+- `/phrase` -- like `/words`, but longer
+- `/paragraph` -- some phrases combined in a single paragraph
+- `/paragraphs` -- some markdown paragraphs
+- `/markdown` -- a complete markdown post, _sans_ front matter
+- `/markdown-post` -- as above, with a complete fake fron matter
+- `/eleventy-post` -- as above.
 
 There's a live instance of an early version of this package running here:
 
